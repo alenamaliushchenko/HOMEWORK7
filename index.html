@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<br>
+    <button onclick="runWindowSequence()">Запустити</button>
+
+    <p id ='text'>I learning JavaScript events!</p> 
+    <button onclick="changeCSS()">Change style!</button>
+
+    <button onclick="makeBlue()">Click to make the page blue</button>
+    <button onclick="makePink()">Double-click to make the page pink</button>
+    <button onclick="makeBrown()" onmouseup="makeWhite()">Click and hold to make the page brown</button>
+
+    <br></br>
+    <a href="#" onmouseover="makeYellow()" onmouseout="makeWhite()">Hover over me!</a>
+   <script src="./script.js"></script>
+</body>
+</html>
