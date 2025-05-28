@@ -14,9 +14,35 @@
     <button onclick="makeBlue()">Click to make the page blue</button>
     <button onclick="makePink()">Double-click to make the page pink</button>
     <button onclick="makeBrown()" onmouseup="makeWhite()">Click and hold to make the page brown</button>
-
     <br></br>
     <a href="#" onmouseover="makeYellow()" onmouseout="makeWhite()">Hover over me!</a>
+
+    <select id="nameList">
+        <option>Peter</option>
+        <option>Alise</option>
+        <option>John</option>
+        <option>Alex</option>
+        <option>Iren</option>
+    </select>
+    <button onclick="removeSelected()" >Choose and Delete</button>
+
+    <button id="myButton">Live button</button>
+    <p id="message"></p>
+
+    <div id="sizeInfo"></div>
+    <br>
+    <br>
+ 
+    <select name="country" id="country">
+        <option value="ger">Germany</option>
+        <option value="usa">USA</option>
+        <option value="ukr">Ukraine</option>
+    </select>
+                    
+    <select name="cities" id="cities"></select>
+    <p id="selection"></p>
+
+
    <script src="./script.js"></script>
 </body>
 </html>
